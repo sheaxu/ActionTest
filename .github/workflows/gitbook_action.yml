@@ -12,7 +12,7 @@ jobs:
     - name: Gitbook Action
       uses: ZanderZhao/gitbook-action@v1.2.4
       with:
-        token: ${{ secrets.PERSONAL_TOKEN }}
+        token: ${{ secrets.TOKEN }}
         time_zone: Asia/Shanghai
         git_name: Sylar
         git_email: swlfigo@gmail.com
