@@ -20,12 +20,12 @@ jobs:
         publish_push_force: false
         #publish_cname: roadmap.isylar.com
         
-    - name: Sync to Gitee
-      uses: wearerequired/git-mirror-action@master
-      env:
-          TOKEN: ${{ secrets.TOKEN }}
-      with:
-          source_branch: main
+#     - name: Sync to Gitee
+#       uses: wearerequired/git-mirror-action@master
+#       env:
+#           TOKEN: ${{ secrets.TOKEN }}
+#       with:
+#           source_branch: main
           
           #source-repo: "git@github.com:swlfigo/iOSRoadMap.git"
           # 注意替换为你的 Gitee 目标仓库地址
